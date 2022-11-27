@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	background-color:beige;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+	margin: 40px 40px 40px 40px;
+}
+
+h1, h2{
+	text-align: center;
+}
+.myphoto {
+	width: 280px;
+	border-radius: 20px;
+	float: left;
+	margin-right: 20px;
+}
+
+.info p{
+	display: flex;
+	margin: 0;
+}
+
+.card {
+	margin-top: 30px;
+	padding: 20px;
+	border: 1px solid black;
+}
+
+.container {
+	width: 850px;
+	margin: auto;
+}
+
+.days {
+	width: 100%;
+}
+
+.learn {
+	padding: 20px 180px 20px 180px;
+}
+
+.course {
+	text-align: center;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.course table {
+	margin: auto;
+}
+
+.contact {
+	text-align: center;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.contact table {
+	margin: auto;
+	border-spacing: auto;
+	width: 100%;
+}
+
+a {
+ color: blue;
+ text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: burlywood;
+}
